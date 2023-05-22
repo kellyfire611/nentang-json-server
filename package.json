@@ -4,7 +4,7 @@
   "description": "NenTang JSON Server",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch database.json --port 3004",
+    "start": "json-server database.json --port 3004 --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kellyfire",
